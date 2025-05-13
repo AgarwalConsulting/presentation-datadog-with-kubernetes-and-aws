@@ -6,7 +6,7 @@ layout: true
 
 class: center, middle
 
-# {title}
+# DataDog with Kubernetes and AWS
 
 Gaurav Agarwal
 
@@ -44,7 +44,7 @@ func main() {
 class: center, middle
 
 Code
-https://github.com/base-org/presentation-template
+https://github.com/AgarwalConsulting/presentation-datadog-with-kubernetes-and-aws
 
 Slides
-https://template.slides.base-org.com
+https://datadog-with-kubernetes-and-aws.slides.AgarwalConsulting.com

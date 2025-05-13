@@ -364,15 +364,35 @@ class: center, middle
 
 ---
 
-| **Metric** | **Description** | **DataDog Metric Name** |
-|------------|---------------|------------------|
-| **Pod Network Traffic** | Measures ingress/egress traffic for pods | `kubernetes.pod.network.tx_bytes`, `kubernetes.pod.network.rx_bytes` |
-| **Node Network Traffic** | Measures node-level network usage | `kubernetes.node.network.tx_bytes`, `kubernetes.node.network.rx_bytes` |
-| **API Server Latency** | Tracks latency for requests to Kubernetes API | `kubernetes.apiserver.request.latency` |
-| **DNS Resolution Time** | Measures Kubernetes DNS query performance | `kubernetes.dns.request_duration` |
-| **Service Connectivity** | Monitors network reachability between services | `datadog.network.tcp.response_time` |
-| **Packet Drops** | Detects lost packets due to network congestion | `kubernetes.network.dropped_packets` |
-| **TCP Retransmissions** | Measures TCP retransmissions due to network issues | `kubernetes.network.tcp.retransmits` |
+- *Pod Network Traffic*: Measures ingress/egress traffic for pods
+
+  `kubernetes.pod.network.tx_bytes`, `kubernetes.pod.network.rx_bytes`
+
+- *Node Network Traffic*: Measures node-level network usage
+
+  `kubernetes.node.network.tx_bytes`, `kubernetes.node.network.rx_bytes`
+
+- *API Server Latency*: Tracks latency for requests to Kubernetes API
+
+  `kubernetes.apiserver.request.latency`
+
+- *DNS Resolution Time*: Measures Kubernetes DNS query performance
+
+  `kubernetes.dns.request_duration`
+
+---
+
+- *Service Connectivity*: Monitors network reachability between services
+
+  `datadog.network.tcp.response_time`
+
+- *Packet Drops*: Detects lost packets due to network congestion
+
+  `kubernetes.network.dropped_packets`
+
+- *TCP Retransmissions*: Measures TCP retransmissions due to network issues
+
+  `kubernetes.network.tcp.retransmits`
 
 ---
 class: center, middle
